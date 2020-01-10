@@ -12,7 +12,7 @@ Then, modify the Dockerfile to get the updated k8s client:
     rm Dockerfile
     vim Dockerfile
 ````
-and insert the content of [this Dockerfile](Dockerfile)
+and insert the content of [this Dockerfile](Dockerfile).
 
 In order to build and push the images you can use:
 ```
