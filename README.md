@@ -14,7 +14,7 @@ Then, modify the Dockerfile to get the updated k8s client:
 ````
 and insert the content of [this Dockerfile](Dockerfile)
 
-then create the images:
+In order to build and push the images you can use:
 ```
     ./bin/docker-image-tool.sh -r <repo> -t my-tag build
     ./bin/docker-image-tool.sh -r <repo> -t my-tag push
